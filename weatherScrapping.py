@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import streamlit as st
 
 def scrape_weather_data():
-    url = "https://nwfc.pmd.gov.pk/new/daily-forecast-en.php"
+    url = "https://nwfc.pmd.gov.pk/new/daily-forecast-en.php" #National Weather Forecasting Center
     # setting headers for targeted url. Sometimes the browser does not support scrapping or its blocked on the site so headers help to get the data
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
